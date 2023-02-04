@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC46B123297F1EF900949A96 /* FreedomLandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B122297F1EF900949A96 /* FreedomLandApp.swift */; };
+		FC46B125297F1EF900949A96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B124297F1EF900949A96 /* ContentView.swift */; };
+		FC46B127297F1EFA00949A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC46B126297F1EFA00949A96 /* Assets.xcassets */; };
+		FC46B12B297F1EFA00949A96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC46B12A297F1EFA00949A96 /* Preview Assets.xcassets */; };
+		FC46B132297F229E00949A96 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC46B131297F229E00949A96 /* GoogleService-Info.plist */; };
+		FC46B135297F252C00949A96 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FC46B134297F252C00949A96 /* FirebaseAuth */; };
+		FC46B139297F258800949A96 /*  LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B138297F258800949A96 /*  LoginView.swift */; };
+		FC46B13C297F79D300949A96 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FC46B13B297F79D300949A96 /* FirebaseFirestore */; };
+		FC46B13E297F79F300949A96 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC46B13D297F79F300949A96 /* FirebaseFirestoreSwift */; };
+		FC46B140297F79F300949A96 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FC46B13F297F79F300949A96 /* FirebaseStorage */; };
+		FC46B142297F7E7F00949A96 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B141297F7E7F00949A96 /* User.swift */; };
+		FC46B14429807CC700949A96 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B14329807CC700949A96 /* LoadingView.swift */; };
+		FC46B14B2980C8AB00949A96 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B14A2980C8AB00949A96 /* View+Extensions.swift */; };
+		FC46B14D2980C97100949A96 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B14C2980C97100949A96 /* MainView.swift */; };
+		FC46B14F2980CB6700949A96 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B14E2980CB6700949A96 /* ProfileView.swift */; };
+		FC46B1522981A3FA00949A96 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B1512981A3FA00949A96 /* RegisterView.swift */; };
+		FC46B1542981C71800949A96 /* ReusableProfileContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B1532981C71800949A96 /* ReusableProfileContent.swift */; };
+		FC46B1592981CF1B00949A96 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FC46B1582981CF1B00949A96 /* SDWebImageSwiftUI */; };
+		FC46B15B2981DB3800949A96 /* CreateNewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B15A2981DB3800949A96 /* CreateNewPost.swift */; };
+		FC46B15F2981F54F00949A96 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B15E2981F54F00949A96 /* Post.swift */; };
+		FC694E2A298DE66700C18203 /* SearchUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC694E29298DE66700C18203 /* SearchUserView.swift */; };
+		FCD1D1402981FBCB004D73BF /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1D13F2981FBCB004D73BF /* PostsView.swift */; };
+		FCD1D14229822123004D73BF /* ReuseablePostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1D14129822123004D73BF /* ReuseablePostsView.swift */; };
+		FCD1D1442982290E004D73BF /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1D1432982290E004D73BF /* PostCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC46B11F297F1EF900949A96 /* FreedomLand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreedomLand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC46B122297F1EF900949A96 /* FreedomLandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedomLandApp.swift; sourceTree = "<group>"; };
+		FC46B124297F1EF900949A96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC46B126297F1EFA00949A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC46B128297F1EFA00949A96 /* FreedomLand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FreedomLand.entitlements; sourceTree = "<group>"; };
+		FC46B12A297F1EFA00949A96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC46B131297F229E00949A96 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC46B138297F258800949A96 /*  LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LoginView.swift"; sourceTree = "<group>"; };
+		FC46B141297F7E7F00949A96 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FC46B14329807CC700949A96 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		FC46B14A2980C8AB00949A96 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		FC46B14C2980C97100949A96 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FC46B14E2980CB6700949A96 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FC46B1512981A3FA00949A96 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		FC46B1532981C71800949A96 /* ReusableProfileContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProfileContent.swift; sourceTree = "<group>"; };
+		FC46B15A2981DB3800949A96 /* CreateNewPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPost.swift; sourceTree = "<group>"; };
+		FC46B15E2981F54F00949A96 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FC694E29298DE66700C18203 /* SearchUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserView.swift; sourceTree = "<group>"; };
+		FCD1D13F2981FBCB004D73BF /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		FCD1D14129822123004D73BF /* ReuseablePostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseablePostsView.swift; sourceTree = "<group>"; };
+		FCD1D1432982290E004D73BF /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC46B11C297F1EF900949A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC46B1592981CF1B00949A96 /* SDWebImageSwiftUI in Frameworks */,
+				FC46B135297F252C00949A96 /* FirebaseAuth in Frameworks */,
+				FC46B140297F79F300949A96 /* FirebaseStorage in Frameworks */,
+				FC46B13C297F79D300949A96 /* FirebaseFirestore in Frameworks */,
+				FC46B13E297F79F300949A96 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC46B116297F1EF900949A96 = {
+			isa = PBXGroup;
+			children = (
+				FC46B121297F1EF900949A96 /* FreedomLand */,
+				FC46B120297F1EF900949A96 /* Products */,
+				FC46B13A297F79D300949A96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC46B120297F1EF900949A96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC46B11F297F1EF900949A96 /* FreedomLand.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC46B121297F1EF900949A96 /* FreedomLand */ = {
+			isa = PBXGroup;
+			children = (
+				FC46B137297F255900949A96 /* Model */,
+				FC46B136297F255200949A96 /* View */,
+				FC46B131297F229E00949A96 /* GoogleService-Info.plist */,
+				FC46B122297F1EF900949A96 /* FreedomLandApp.swift */,
+				FC46B124297F1EF900949A96 /* ContentView.swift */,
+				FC46B126297F1EFA00949A96 /* Assets.xcassets */,
+				FC46B128297F1EFA00949A96 /* FreedomLand.entitlements */,
+				FC46B129297F1EFA00949A96 /* Preview Content */,
+			);
+			path = FreedomLand;
+			sourceTree = "<group>";
+		};
+		FC46B129297F1EFA00949A96 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC46B12A297F1EFA00949A96 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC46B136297F255200949A96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC46B1492980C87200949A96 /* Helpers */,
+				FC46B1462980C6E400949A96 /* MainView */,
+				FC46B1452980C69E00949A96 /* Login */,
+				FC46B14329807CC700949A96 /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC46B137297F255900949A96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC46B141297F7E7F00949A96 /* User.swift */,
+				FC46B15E2981F54F00949A96 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC46B13A297F79D300949A96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC46B1452980C69E00949A96 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FC46B138297F258800949A96 /*  LoginView.swift */,
+				FC46B1512981A3FA00949A96 /* RegisterView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FC46B1462980C6E400949A96 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				FC694E2C298DED2700C18203 /* ProfileView */,
+				FC694E2B298DE8B700C18203 /* PostView */,
+				FC46B14C2980C97100949A96 /* MainView.swift */,
+				FC46B15A2981DB3800949A96 /* CreateNewPost.swift */,
+				FC694E29298DE66700C18203 /* SearchUserView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		FC46B1492980C87200949A96 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FC46B14A2980C8AB00949A96 /* View+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FC694E2B298DE8B700C18203 /* PostView */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1D14129822123004D73BF /* ReuseablePostsView.swift */,
+				FCD1D13F2981FBCB004D73BF /* PostsView.swift */,
+				FCD1D1432982290E004D73BF /* PostCardView.swift */,
+			);
+			path = PostView;
+			sourceTree = "<group>";
+		};
+		FC694E2C298DED2700C18203 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				FC46B1532981C71800949A96 /* ReusableProfileContent.swift */,
+				FC46B14E2980CB6700949A96 /* ProfileView.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC46B11E297F1EF900949A96 /* FreedomLand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC46B12E297F1EFA00949A96 /* Build configuration list for PBXNativeTarget "FreedomLand" */;
+			buildPhases = (
+				FC46B11B297F1EF900949A96 /* Sources */,
+				FC46B11C297F1EF900949A96 /* Frameworks */,
+				FC46B11D297F1EF900949A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreedomLand;
+			packageProductDependencies = (
+				FC46B134297F252C00949A96 /* FirebaseAuth */,
+				FC46B13B297F79D300949A96 /* FirebaseFirestore */,
+				FC46B13D297F79F300949A96 /* FirebaseFirestoreSwift */,
+				FC46B13F297F79F300949A96 /* FirebaseStorage */,
+				FC46B1582981CF1B00949A96 /* SDWebImageSwiftUI */,
+			);
+			productName = FreedomLand;
+			productReference = FC46B11F297F1EF900949A96 /* FreedomLand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC46B117297F1EF900949A96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FC46B11E297F1EF900949A96 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = FC46B11A297F1EF900949A96 /* Build configuration list for PBXProject "FreedomLand" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC46B116297F1EF900949A96;
+			packageReferences = (
+				FC46B133297F252C00949A96 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FC46B1552981CE8B00949A96 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = FC46B120297F1EF900949A96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC46B11E297F1EF900949A96 /* FreedomLand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC46B11D297F1EF900949A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC46B12B297F1EFA00949A96 /* Preview Assets.xcassets in Resources */,
+				FC46B127297F1EFA00949A96 /* Assets.xcassets in Resources */,
+				FC46B132297F229E00949A96 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC46B11B297F1EF900949A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC46B1522981A3FA00949A96 /* RegisterView.swift in Sources */,
+				FC46B14F2980CB6700949A96 /* ProfileView.swift in Sources */,
+				FC46B1542981C71800949A96 /* ReusableProfileContent.swift in Sources */,
+				FC46B15F2981F54F00949A96 /* Post.swift in Sources */,
+				FC46B14D2980C97100949A96 /* MainView.swift in Sources */,
+				FC46B142297F7E7F00949A96 /* User.swift in Sources */,
+				FC46B125297F1EF900949A96 /* ContentView.swift in Sources */,
+				FCD1D14229822123004D73BF /* ReuseablePostsView.swift in Sources */,
+				FC46B14B2980C8AB00949A96 /* View+Extensions.swift in Sources */,
+				FC46B15B2981DB3800949A96 /* CreateNewPost.swift in Sources */,
+				FCD1D1402981FBCB004D73BF /* PostsView.swift in Sources */,
+				FC46B123297F1EF900949A96 /* FreedomLandApp.swift in Sources */,
+				FCD1D1442982290E004D73BF /* PostCardView.swift in Sources */,
+				FC46B14429807CC700949A96 /* LoadingView.swift in Sources */,
+				FC46B139297F258800949A96 /*  LoginView.swift in Sources */,
+				FC694E2A298DE66700C18203 /* SearchUserView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC46B12C297F1EFA00949A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC46B12D297F1EFA00949A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FC46B12F297F1EFA00949A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FreedomLand/FreedomLand.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreedomLand/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arshthecoder.FreedomLand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FC46B130297F1EFA00949A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FreedomLand/FreedomLand.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreedomLand/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arshthecoder.FreedomLand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC46B11A297F1EF900949A96 /* Build configuration list for PBXProject "FreedomLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC46B12C297F1EFA00949A96 /* Debug */,
+				FC46B12D297F1EFA00949A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC46B12E297F1EFA00949A96 /* Build configuration list for PBXNativeTarget "FreedomLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC46B12F297F1EFA00949A96 /* Debug */,
+				FC46B130297F1EFA00949A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC46B133297F252C00949A96 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		FC46B1552981CE8B00949A96 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC46B134297F252C00949A96 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC46B133297F252C00949A96 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FC46B13B297F79D300949A96 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC46B133297F252C00949A96 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FC46B13D297F79F300949A96 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC46B133297F252C00949A96 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		FC46B13F297F79F300949A96 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC46B133297F252C00949A96 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		FC46B1582981CF1B00949A96 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC46B1552981CE8B00949A96 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FC46B117297F1EF900949A96 /* Project object */;
+}
